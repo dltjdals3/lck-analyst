@@ -1,0 +1,35 @@
+# 환경변수 / API 키 (절대 커밋 금지)
+.env
+.env.*
+!.env.example
+profile.json
+
+# Oracle's Elixir 원본 데이터 (용량 큼, 전처리본만 커밋)
+*_LoL_esports_match_data_from_OraclesElixir.csv
+
+# 생성물
+charts/
+reports/
+*.png
+!docs/*.png
+
+# 파이썬
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 노트북
+.ipynb_checkpoints/
+
+# 에디터 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
